@@ -8,4 +8,4 @@ const etaSoggetto = prompt("età");
 
 const upDateUtente = document.getElementById("info-utente");
 
-upDateUtente.innerHTML = `<strong>${nomeSoggetto}</strong><strong>${cognomeSoggetto}</strong><em style = "color: red;">${coloreSoggetto}</em>${etaSoggetto}`
+upDateUtente.innerHTML = `<strong>${nomeSoggetto}</strong><strong>${cognomeSoggetto}</strong><em style = "color: green;">${coloreSoggetto}</em>${etaSoggetto}`
